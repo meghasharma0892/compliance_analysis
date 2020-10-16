@@ -1,6 +1,6 @@
 # compliance_analysis
 An in-depth reporting and analysis of Cyber Security compliance reporting for an organization
-As the internet proliferate our lives and businesses, the need for effective Cyber Security reporting and analysis increases for unonstructive working running of a business.
+As the internet proliferate our lives and businesses, the need for effective Cyber Security reporting and analysis increases for unobstructed working running of a business.
 
 This project shows how businesses track, analyze and report Cybersecurity data for their organizations.
 
