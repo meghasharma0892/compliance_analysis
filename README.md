@@ -34,8 +34,8 @@ Fields:
 
 - Compliance Rules: While the industrial Cybersecurity Compliance Rules are more intricate. For this project, A device is considerent compliant if it fufills the following three conditions:
 
-- Operating System IN (Win7, Server2008, Win10)
-- Needs Updates = FALSE
-- Days Between ReportDALast_Seen_Online <=10
+  - Operating System IN (Win7, Server2008, Win10)
+  - Needs Updates = FALSE
+  - Days Between ReportDALast_Seen_Online <=10
 
 
