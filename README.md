@@ -16,26 +16,26 @@ Fields:
 
 - Business_Unit: String: Variable indicating the Business unit managing a device.
 
--State_Name: String: Variable indocating the state where a device is situated/registered.
+- State_Name: String: Variable indocating the state where a device is situated/registered.
 
--Last_Seen_Online: Date: Variable indicating the last time a device appeared on the organization network.
+- Last_Seen_Online: Date: Variable indicating the last time a device appeared on the organization network.
 
--Primary_Contact_U: String: Updated Primary Contact string (first letter capitalized).
+- Primary_Contact_U: String: Updated Primary Contact string (first letter capitalized).
 
--OS Check: String: "OS Compliant" if the Operating System of a device is Compliant else "OS Obsolete".
+- OS Check: String: "OS Compliant" if the Operating System of a device is Compliant else "OS Obsolete".
 
--ReportDate: Date indicating the reporting month. This field can be used to track historical progress of Business Units/States.
+- ReportDate: Date indicating the reporting month. This field can be used to track historical progress of Business Units/States.
 
--Last Seen Online Check: String: "Needs Restart" if the difference between the Report Date and the Last_Seen_Online date is over 10 days."Last Seen Online Compliant" is the device has checked in to the network in 10 days before the Report Date.
+- Last Seen Online Check: String: "Needs Restart" if the difference between the Report Date and the Last_Seen_Online date is over 10 days."Last Seen Online Compliant" is the device has checked in to the network in 10 days before the Report Date.
 
--Days Since: Integer: DateDifference between "Last_Seen_Online" and "Report Date".
+- Days Since: Integer: DateDifference between "Last_Seen_Online" and "Report Date".
 
--Compliance Status: String: "Compliant" if the compliance rules are fulfilled. "Non Compliant" if the compliance rules are not fulfilled.
+- Compliance Status: String: "Compliant" if the compliance rules are fulfilled. "Non Compliant" if the compliance rules are not fulfilled.
 
--Compliance Rules: While the industrial Cybersecurity Compliance Rules are more intricate. For this project, A device is considerent compliant if it fufills the following three conditions:
+- Compliance Rules: While the industrial Cybersecurity Compliance Rules are more intricate. For this project, A device is considerent compliant if it fufills the following three conditions:
 
--Operating System IN (Win7, Server2008, Win10)
--Needs Updates = FALSE
--Days Between ReportDALast_Seen_Online <=10
+- Operating System IN (Win7, Server2008, Win10)
+- Needs Updates = FALSE
+- Days Between ReportDALast_Seen_Online <=10
 
 
